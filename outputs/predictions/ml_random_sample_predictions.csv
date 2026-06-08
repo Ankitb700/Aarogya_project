@@ -1,0 +1,3 @@
+subject_id,trial_id,actual_hr,actual_cv_load,actual_bp_proxy,predicted_hr,predicted_cv_load,predicted_cv_load_proba_0,predicted_cv_load_proba_1,predicted_cv_load_proba_2,predicted_bp_proxy
+subject_006,trial_001,87.27524966261808,1,0.4507423796926684,88.06170976535515,1,0.125,0.665,0.21,0.43070604420865843
+subject_002,trial_001,71.83586206896553,0,0.1944626076577093,82.28059446568912,1,0.27,0.625,0.105,0.32148595778195743

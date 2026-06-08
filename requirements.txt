@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+opencv-python
+mediapipe
+matplotlib
+seaborn
+jupyter
+ipykernel
+tqdm
+joblib
+torch
+torchvision

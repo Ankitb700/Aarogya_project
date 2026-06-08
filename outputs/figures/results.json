@@ -1,0 +1,41 @@
+{
+  "n_trials": 10,
+  "sqi_means": {
+    "bvp_n_sqi": 15.318605825087431,
+    "bvp_s_sqi": -0.5503109584826107,
+    "bvp_k_sqi": 56.852691741713464,
+    "bvp_e_sqi": 11.715972257383163,
+    "bvp_z_sqi": 0.04944750102285336,
+    "bvp_r_sqi": 0.5262537544359256,
+    "bvp_periodicity": 0.8267397001421021,
+    "bvp_peak_stability": -0.3494775098919395,
+    "bvp_pulse_consistency": 0.44351210370214406
+  },
+  "quality_distribution": {
+    "Excellent": 10
+  },
+  "classifier_accuracy": 1.0,
+  "feature_importance": {
+    "bvp_n_sqi": 0.0,
+    "bvp_s_sqi": 0.0,
+    "bvp_k_sqi": 0.0,
+    "bvp_e_sqi": 0.0,
+    "bvp_z_sqi": 0.0,
+    "bvp_r_sqi": 0.0,
+    "bvp_periodicity": 0.0
+  },
+  "windkessel_means": {
+    "windkessel_augmentation_index": 0.8561461458908026,
+    "windkessel_compliance_proxy": 8.818202017392796,
+    "windkessel_resistance_proxy": 54.60058138836462,
+    "windkessel_stiffness_index": 273.99573015873017,
+    "windkessel_pulse_area_ratio": 1.8163622291418844
+  },
+  "sdppg_detection_rates": {
+    "a": 100.0,
+    "b": 100.0,
+    "c": 100.0,
+    "d": 100.0,
+    "e": 100.0
+  }
+}

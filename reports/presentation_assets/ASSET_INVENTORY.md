@@ -1,0 +1,302 @@
+# Asset Inventory
+
+## Summary
+
+- CSV data: 117
+- Chart/image: 94
+- Document report: 2
+- Documentation: 24
+- JSON summary: 2
+- Photo: 5
+- Video: 35
+
+## Missing Visual Explanations
+
+- No business-facing README section embedded the most important visuals before this update.
+- Existing charts were technical and scattered across model-specific folders.
+- Video and photo examples existed, but they were not arranged as client-facing measurement stories.
+- Failure/challenge explanations existed as data signals, but not as plain-language visuals.
+
+## Full Inventory
+
+| Type | Path | Size |
+|---|---|---:|
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/ACC.csv` | 535801 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/BVP.csv` | 669561 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/EDA.csv` | 65916 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/HR.csv` | 10293 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/IBI.csv` | 17345 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/TEMP.csv` | 40875 |
+| CSV data | `archive/subject_001/subject_001/trial_001/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/ACC.csv` | 363853 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/BVP.csv` | 465810 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/EDA.csv` | 45225 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/HR.csv` | 7511 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/IBI.csv` | 7974 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/TEMP.csv` | 30171 |
+| CSV data | `archive/subject_002/subject_002/trial_001/empatica_data/tags.csv` | 42 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/ACC.csv` | 189951 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/BVP.csv` | 222705 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/EDA.csv` | 21033 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/HR.csv` | 3595 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/IBI.csv` | 7823 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/TEMP.csv` | 14043 |
+| CSV data | `archive/subject_002/subject_002/trial_002/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/ACC.csv` | 168984 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/BVP.csv` | 223911 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/EDA.csv` | 20817 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/HR.csv` | 3435 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/IBI.csv` | 8423 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/TEMP.csv` | 13899 |
+| CSV data | `archive/subject_002/subject_002/trial_003/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/ACC.csv` | 186040 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/BVP.csv` | 223853 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/EDA.csv` | 21033 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/HR.csv` | 3659 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/IBI.csv` | 2423 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/TEMP.csv` | 13995 |
+| CSV data | `archive/subject_003/subject_003/trial_001/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/ACC.csv` | 124361 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/BVP.csv` | 146672 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/EDA.csv` | 13959 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/HR.csv` | 2334 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/IBI.csv` | 7791 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/TEMP.csv` | 9339 |
+| CSV data | `archive/subject_003/subject_003/trial_002/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/ACC.csv` | 366620 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/BVP.csv` | 497184 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/EDA.csv` | 43389 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/HR.csv` | 7203 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/IBI.csv` | 7372 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/TEMP.csv` | 28923 |
+| CSV data | `archive/subject_004/subject_004/trial_001/empatica_e4/tags.csv` | 56 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/ACC.csv` | 170659 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/BVP.csv` | 234378 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/EDA.csv` | 21357 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/HR.csv` | 3949 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/IBI.csv` | 13823 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/TEMP.csv` | 14235 |
+| CSV data | `archive/subject_005/subject_005/trial_001/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/ACC.csv` | 233999 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/BVP.csv` | 286567 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/EDA.csv` | 27027 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/HR.csv` | 4473 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/IBI.csv` | 10219 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/TEMP.csv` | 18027 |
+| CSV data | `archive/subject_006/subject_006/trial_001/empatica_e4/tags.csv` | 42 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/ACC.csv` | 209260 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/BVP.csv` | 242607 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/EDA.csv` | 23571 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/HR.csv` | 3994 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/IBI.csv` | 2423 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/TEMP.csv` | 15723 |
+| CSV data | `archive/subject_007/subject_007/trial_001/empatica_e4/tags.csv` | 42 |
+| CSV data | `outputs/aligned/subject_001_trial_001_aligned_1hz.csv` | 56795 |
+| CSV data | `outputs/aligned/subject_002_trial_001_aligned_1hz.csv` | 44871 |
+| CSV data | `outputs/aligned/subject_002_trial_002_aligned_1hz.csv` | 38305 |
+| CSV data | `outputs/aligned/subject_002_trial_003_aligned_1hz.csv` | 40624 |
+| CSV data | `outputs/aligned/subject_003_trial_001_aligned_1hz.csv` | 19512 |
+| CSV data | `outputs/aligned/subject_003_trial_002_aligned_1hz.csv` | 37197 |
+| CSV data | `outputs/aligned/subject_004_trial_001_aligned_1hz.csv` | 8630 |
+| CSV data | `outputs/aligned/subject_005_trial_001_aligned_1hz.csv` | 48514 |
+| CSV data | `outputs/aligned/subject_006_trial_001_aligned_1hz.csv` | 44155 |
+| CSV data | `outputs/aligned/subject_007_trial_001_aligned_1hz.csv` | 37353 |
+| CSV data | `outputs/features/dl_windows.csv` | 19353 |
+| CSV data | `outputs/features/trial_features.csv` | 6342 |
+| CSV data | `outputs/predictions/dl_random_sample_predictions.csv` | 1938 |
+| CSV data | `outputs/predictions/ml_random_sample_predictions.csv` | 428 |
+| CSV data | `reports/presentation_assets/asset_inventory.csv` | 19929 |
+| CSV data | `rppg_inference_vbpe/DBP_new.csv` | 137 |
+| CSV data | `rppg_inference_vbpe/Input_Data/Demographic_Data.csv` | 21939 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Face/Result_SL377_face_output.csv` | 14851 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Face/Result_SL413_face_output.csv` | 15364 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Face/Result_SL421_face_output.csv` | 15395 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Face/Result_SL426_face_output.csv` | 15409 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Face/Result_SL428_face_output.csv` | 15273 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/FaceResult_SL377_face_output.csv` | 14852 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/FaceResult_SL413_face_output.csv` | 15375 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/FaceResult_SL421_face_output.csv` | 15392 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/FaceResult_SL426_face_output.csv` | 15403 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/FaceResult_SL428_face_output.csv` | 15286 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Hand/Result_SL377_hand_output.csv` | 14842 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Hand/Result_SL413_hand_output.csv` | 15531 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Hand/Result_SL421_hand_output.csv` | 15527 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Hand/Result_SL426_hand_output.csv` | 15509 |
+| CSV data | `rppg_inference_vbpe/Results/PPG/Hand/Result_SL428_hand_output.csv` | 15532 |
+| CSV data | `rppg_inference_vbpe/SBP_new.csv` | 137 |
+| CSV data | `rppg_inference_vbpe/research_output/classifier_real.csv` | 229 |
+| CSV data | `rppg_inference_vbpe/research_output/classifier_synth.csv` | 200 |
+| CSV data | `rppg_inference_vbpe/research_output/per_roi_sqi_all.csv` | 4878 |
+| CSV data | `rppg_inference_vbpe/research_output/per_roi_sqi_demo.csv` | 349 |
+| CSV data | `rppg_inference_vbpe/research_output/roi_summary_table.csv` | 858 |
+| CSV data | `wpin_analysis/WPINN/outputs/inference_metrics.csv` | 83 |
+| CSV data | `wpin_analysis/WPINN/outputs/inference_results.csv` | 18253 |
+| CSV data | `wpin_analysis/WPINN/outputs/model_results.csv` | 500 |
+| CSV data | `wpin_analysis/WPINN/outputs/predictions_DBP_2pct.csv` | 13215 |
+| CSV data | `wpin_analysis/WPINN/outputs/predictions_DBP_5pct.csv` | 12560 |
+| CSV data | `wpin_analysis/WPINN/outputs/predictions_SBP.csv` | 13853 |
+| CSV data | `wpin_analysis/WPINN/outputs/predictions_SBP_2pct.csv` | 13619 |
+| CSV data | `wpin_analysis/WPINN/outputs/predictions_SBP_5pct.csv` | 12985 |
+| CSV data | `wpin_analysis/WPINN/saved_models/scaler_params.csv` | 15 |
+| Chart/image | `chats/Figure_1.png` | 303785 |
+| Chart/image | `chats/Figure_1_10.png` | 402437 |
+| Chart/image | `chats/Figure_1_11.png` | 50424 |
+| Chart/image | `chats/Figure_1_12.png` | 50557 |
+| Chart/image | `chats/Figure_1_13.png` | 31944 |
+| Chart/image | `chats/Figure_1_2.png` | 126154 |
+| Chart/image | `chats/Figure_1_3.png` | 42150 |
+| Chart/image | `chats/Figure_1_4.png` | 24716 |
+| Chart/image | `chats/Figure_1_5.png` | 43879 |
+| Chart/image | `chats/Figure_1_6.png` | 159097 |
+| Chart/image | `chats/Figure_1_7.png` | 121511 |
+| Chart/image | `chats/Figure_1_8.png` | 42326 |
+| Chart/image | `chats/Figure_1_9.png` | 51431 |
+| Chart/image | `outputs/figures/bland_altman_hr.png` | 102086 |
+| Chart/image | `outputs/figures/comprehensive_summary_dashboard.png` | 179487 |
+| Chart/image | `outputs/figures/feature_set_comparison_r2.png` | 31277 |
+| Chart/image | `outputs/figures/sqi_distributions.png` | 148456 |
+| Chart/image | `outputs/figures/sqi_feature_importance.png` | 39192 |
+| Chart/image | `outputs/figures/sqi_quality_distribution.png` | 23958 |
+| Chart/image | `outputs/figures/waveform_decomposition_detailed.png` | 212571 |
+| Chart/image | `outputs/figures/windkessel_correlation_heatmap.png` | 189151 |
+| Chart/image | `outputs/figures/windkessel_features_distributions.png` | 87340 |
+| Chart/image | `report_assets/DBP_new_dist.png` | 26211 |
+| Chart/image | `report_assets/Demographic_Data_dist.png` | 58935 |
+| Chart/image | `report_assets/SBP_new_dist.png` | 26811 |
+| Chart/image | `report_assets/custom_correlation.png` | 137705 |
+| Chart/image | `report_assets/custom_targets.png` | 39566 |
+| Chart/image | `report_assets/dl_bp_pred.png` | 42365 |
+| Chart/image | `report_assets/dl_hr_pred.png` | 42282 |
+| Chart/image | `report_assets/dl_training_curve.png` | 54405 |
+| Chart/image | `report_assets/ml_bp_pred.png` | 43663 |
+| Chart/image | `report_assets/ml_hr_pred.png` | 39175 |
+| Chart/image | `report_assets/open_rppg_hr_by_sample.png` | 40639 |
+| Chart/image | `reports/Fig2.png` | 610749 |
+| Chart/image | `reports/custom_model_results/custom_dl_labeled_prediction_card.png` | 45779 |
+| Chart/image | `reports/custom_model_results/custom_label_accuracy_chart.png` | 70165 |
+| Chart/image | `reports/custom_model_results/custom_ml_labeled_prediction_card.png` | 42355 |
+| Chart/image | `reports/custom_model_results/custom_model_scorecard.png` | 105254 |
+| Chart/image | `reports/custom_model_results/custom_wpinn_labeled_result_card.png` | 47006 |
+| Chart/image | `reports/dashboard_visuals/client_dashboard.png` | 300491 |
+| Chart/image | `reports/dashboard_visuals/roi_signal_quality.png` | 61307 |
+| Chart/image | `reports/executive_summary/executive_scorecard.png` | 119025 |
+| Chart/image | `reports/failure_cases/client_friendly_challenge_gallery.png` | 357660 |
+| Chart/image | `reports/model_comparisons/model_comparison_overview.png` | 53241 |
+| Chart/image | `reports/model_comparisons/wpinn_rmse_improvement.png` | 65280 |
+| Chart/image | `reports/presentation_assets/representative_video_frame.png` | 492307 |
+| Chart/image | `reports/pretrained_analysis/image_backed_bp_prediction_card.png` | 586093 |
+| Chart/image | `reports/pretrained_analysis/image_backed_hr_prediction_card.png` | 586746 |
+| Chart/image | `reports/pretrained_analysis/pretrained_analysis_map.png` | 112723 |
+| Chart/image | `reports/pretrained_analysis/roi_technique_panel.png` | 401082 |
+| Chart/image | `reports/pretrained_analysis/rppg_dataset_and_outputs_map.png` | 89517 |
+| Chart/image | `reports/pretrained_analysis/rppg_vbpe_bp_summary.png` | 111148 |
+| Chart/image | `reports/pretrained_analysis/subject_roi_measurement_overlay.png` | 1248333 |
+| Chart/image | `reports/pretrained_analysis/wpinn_business_model_comparison.png` | 65213 |
+| Chart/image | `reports/pretrained_analysis/wpinn_dataset_story.png` | 104490 |
+| Chart/image | `reports/success_cases/video_measurement_examples.png` | 389387 |
+| Chart/image | `reports/workflow_visuals/operational_workflow.png` | 60832 |
+| Chart/image | `rppg_inference_vbpe/Fig2.png` | 610749 |
+| Chart/image | `rppg_inference_vbpe/research_output/01_clean_vs_noisy.png` | 300576 |
+| Chart/image | `rppg_inference_vbpe/research_output/02_sqi_distributions.png` | 129026 |
+| Chart/image | `rppg_inference_vbpe/research_output/03_roc_real.png` | 42326 |
+| Chart/image | `rppg_inference_vbpe/research_output/03_roc_synthetic.png` | 42150 |
+| Chart/image | `rppg_inference_vbpe/research_output/04_confusion_synth.png` | 24716 |
+| Chart/image | `rppg_inference_vbpe/research_output/05_feature_importance.png` | 43879 |
+| Chart/image | `rppg_inference_vbpe/research_output/06_real_sqi_heatmaps.png` | 159097 |
+| Chart/image | `rppg_inference_vbpe/research_output/07_face_vs_hand_sqi.png` | 121511 |
+| Chart/image | `rppg_inference_vbpe/research_output/08_bland_altman_proxy.png` | 51431 |
+| Chart/image | `rppg_inference_vbpe/research_output/09_per_roi_snr.png` | 35775 |
+| Chart/image | `rppg_inference_vbpe/research_output/10_roi_heatmap_overlay.png` | 402437 |
+| Chart/image | `rppg_inference_vbpe/research_output/11_roi_fusion.png` | 30782 |
+| Chart/image | `rppg_inference_vbpe/research_output/12_roi_snr_boxplot.png` | 50424 |
+| Chart/image | `rppg_inference_vbpe/research_output/13_reliability_diagram.png` | 50557 |
+| Chart/image | `rppg_inference_vbpe/research_output/14_per_subject_roc.png` | 31944 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/batch_inference_waveforms.png` | 126634 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/beat_to_beat_bp.png` | 236629 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/bp_distributions.png` | 74449 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/correlation_matrix.png` | 125671 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/flow_distributions.png` | 64141 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/inference_scatter.png` | 104881 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/loss_curves_DBP_2pct.png` | 90878 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/loss_curves_DBP_5pct.png` | 108268 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/loss_curves_SBP_2pct.png` | 99851 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/loss_curves_SBP_5pct.png` | 101402 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/model_performance_comparison.png` | 41557 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_scatter_DBP_2pct.png` | 95218 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_scatter_DBP_5pct.png` | 107681 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_scatter_SBP_2pct.png` | 100483 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_scatter_SBP_5pct.png` | 105793 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_timeseries_DBP_2pct.png` | 99535 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_timeseries_DBP_5pct.png` | 102012 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_timeseries_SBP_2pct.png` | 105489 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/prediction_timeseries_SBP_5pct.png` | 104472 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/sample_waveforms.png` | 252837 |
+| Chart/image | `wpin_analysis/WPINN/outputs/figures/single_beat_inference.png` | 84074 |
+| Document report | `Custom_BP_Estimation_Analysis_Report.docx` | 444006 |
+| Document report | `Pretrained_Model_Analysis_Report.docx` | 192722 |
+| Documentation | `PULSE_MORPHOLOGY_IMPLEMENTATION_REPORT.md` | 12157 |
+| Documentation | `README.md` | 9926 |
+| Documentation | `open_rppg_inference/Open-rppg_results.md` | 3469 |
+| Documentation | `open_rppg_inference/README.md` | 8884 |
+| Documentation | `open_rppg_inference/docs/source/intro.md` | 8654 |
+| Documentation | `phase_1.MD` | 7468 |
+| Documentation | `reports/VISUALIZATION_CHANGELOG.md` | 6172 |
+| Documentation | `reports/executive_summary/KEY_FINDINGS.md` | 636 |
+| Documentation | `reports/presentation_assets/ASSET_INVENTORY.md` | 23322 |
+| Documentation | `rppg_inference_vbpe/README.md` | 32876 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos/Face/Face.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos/Hand/Hand.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos/MP_Tracked_Videos.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/facemp4.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/Handmp4.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/MP_Videos_MP4/mp4.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/PPG/Face/Faceppg.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/PPG/Hand/Handppg.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/PPG/ppg.md` | 1 |
+| Documentation | `rppg_inference_vbpe/Results/Results.md` | 1 |
+| Documentation | `src/features/outputs/prediction_schema.md` | 10902 |
+| Documentation | `src/features/outputs/schema.md` | 12096 |
+| Documentation | `wpin_analysis/WPINN/README.md` | 2788 |
+| Documentation | `wpin_analysis/WPINN/WPINN_ANALYSIS_REPORT.md` | 10462 |
+| JSON summary | `outputs/figures/results.json` | 1133 |
+| JSON summary | `rppg_inference_vbpe/research_output/final_summary.json` | 121 |
+| Photo | `rppg_inference_vbpe/Input_Photos/SL377.jpg` | 2183742 |
+| Photo | `rppg_inference_vbpe/Input_Photos/SL413.jpg` | 3665482 |
+| Photo | `rppg_inference_vbpe/Input_Photos/SL421.jpg` | 6333326 |
+| Photo | `rppg_inference_vbpe/Input_Photos/SL426.jpg` | 6969047 |
+| Photo | `rppg_inference_vbpe/Input_Photos/SL428.jpg` | 6189927 |
+| Video | `archive/subject_001/subject_001/trial_001/video/video.MOV` | 538497671 |
+| Video | `archive/subject_002/subject_002/trial_001/video/video.MOV` | 441306541 |
+| Video | `archive/subject_002/subject_002/trial_002/video/video.MOV` | 280258705 |
+| Video | `archive/subject_002/subject_002/trial_003/video/video.MOV` | 449559291 |
+| Video | `archive/subject_003/subject_003/trial_001/video/video.MOV` | 387640260 |
+| Video | `archive/subject_003/subject_003/trial_002/video/video.MOV` | 420718828 |
+| Video | `archive/subject_004/subject_004/trial_001/video/video.MOV` | 470588757 |
+| Video | `archive/subject_005/subject_005/trial_001/video/video.MOV` | 460118093 |
+| Video | `archive/subject_006/subject_006/trial_001/video/video.MOV` | 459237938 |
+| Video | `archive/subject_007/subject_007/trial_001/video/video.MOV` | 463997388 |
+| Video | `rppg_inference_vbpe/Input_Videos/SL377.mp4` | 27516226 |
+| Video | `rppg_inference_vbpe/Input_Videos/SL413.mp4` | 67019562 |
+| Video | `rppg_inference_vbpe/Input_Videos/SL421.mp4` | 44732085 |
+| Video | `rppg_inference_vbpe/Input_Videos/SL426.mp4` | 119188545 |
+| Video | `rppg_inference_vbpe/Input_Videos/SL428.mp4` | 78260603 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Face/SL377_face_output.avi` | 190100 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Face/SL413_face_output.avi` | 181582 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Face/SL421_face_output.avi` | 218124 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Face/SL426_face_output.avi` | 207804 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Face/SL428_face_output.avi` | 204420 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Hand/SL377_hand_output.avi` | 947918 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Hand/SL413_hand_output.avi` | 946146 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Hand/SL421_hand_output.avi` | 1445958 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Hand/SL426_hand_output.avi` | 1326580 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos/Hand/SL428_hand_output.avi` | 928374 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/SL377_face_output.mp4` | 20618 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/SL413_face_output.mp4` | 17424 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/SL421_face_output.mp4` | 21820 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/SL426_face_output.mp4` | 24240 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Face/SL428_face_output.mp4` | 20821 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/SL377_hand_output.mp4` | 214223 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/SL413_hand_output.mp4` | 159253 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/SL421_hand_output.mp4` | 257304 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/SL426_hand_output.mp4` | 251575 |
+| Video | `rppg_inference_vbpe/Results/MP_Videos_MP4/Hand/SL428_hand_output.mp4` | 130164 |
