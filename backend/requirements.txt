@@ -14,3 +14,18 @@ einops>=0.8
 av>=13
 numpy
 pandas
+
+# Required by rppg/models.py
+setuptools>=70.0.0
+
+scikit-learn
+xgboost
+mediapipe
+matplotlib
+seaborn
+jupyter
+ipykernel
+tqdm
+joblib
+torch
+torchvision
