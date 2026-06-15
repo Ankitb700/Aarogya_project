@@ -9,12 +9,9 @@ export default function App() {
   return (
     <div className="shell">
       <header className="topbar">
-        <Link to="/" className="brand" aria-label="VitalScan home">
-          <span className="logo" aria-hidden="true">✚</span>
-          <span>
-            VitalScan
-            <small>Contactless vitals assessment</small>
-          </span>
+        <Link to="/" className="brand" aria-label="visotonics home">
+          <img src="/logo.png" className="brand-logo" alt="visotonics" />
+          <span className="brand-tag">Contactless vitals assessment</span>
         </Link>
       </header>
 
