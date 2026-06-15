@@ -309,6 +309,9 @@ footer {{ text-align: center; color: #bdc3c7; font-size: 12px; margin-top: 20px;
     return html_path
 
 
+def _has_display():
+    return os.name == 'nt' or bool(os.environ.get('DISPLAY'))
+
 def analyze_vitals(video_path=None, duration_sec=30):
     model = rppg.Model()
     results = []
@@ -352,16 +355,18 @@ def analyze_vitals(video_path=None, duration_sec=30):
                     except Exception as e:
                         print(e)
                     last_analysis = time.time()
-                if box is not None:
-                    y1, y2 = box[0]
-                    x1, x2 = box[1]
-                    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                cv2.putText(frame, f"Elapsed: {elapsed:.1f}s", (20, 40),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
-                cv2.imshow("Vitals Analyzer", frame)
-                if cv2.waitKey(1) & 0xFF == ord("q"):
-                    break
-        cv2.destroyAllWindows()
+                if _has_display():
+                    if box is not None:
+                        y1, y2 = box[0]
+                        x1, x2 = box[1]
+                        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                    cv2.putText(frame, f"Elapsed: {elapsed:.1f}s", (20, 40),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+                    cv2.imshow("Vitals Analyzer", frame)
+                    if cv2.waitKey(1) & 0xFF == ord("q"):
+                        break
+        if _has_display():
+            cv2.destroyAllWindows()
 
     report = generate_report(results)
     generate_visual_report()
