@@ -1,0 +1,50 @@
+# Version control
+.git/
+.gitattributes
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node (frontend source, not dist)
+frontend/node_modules/
+frontend/src/
+frontend/public/
+frontend/package-lock.json
+frontend/vite.config.js
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Docker files (don't copy Dockerfile into the image)
+Dockerfile
+.dockerignore
+
+# Large data / archives
+archive/
+chats/
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Documentation (not needed at runtime)
+*.md
+*.docx

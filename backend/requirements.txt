@@ -3,7 +3,7 @@ fastapi>=0.110
 uvicorn[standard]>=0.29
 websockets>=12
 
-# rPPG inference engine deps (mirrors open_rppg_inference/requirements.txt)
+# rPPG inference engine
 heartpy>=1.2
 jax>=0.4.26
 keras>=3.5.0
@@ -15,17 +15,8 @@ av>=13
 numpy
 pandas
 
-# Required by rppg/models.py
+# Required by rppg package (pkg_resources)
 setuptools>=70.0.0
 
-scikit-learn
-xgboost
-mediapipe
+# Report generation (lazy import)
 matplotlib
-seaborn
-jupyter
-ipykernel
-tqdm
-joblib
-torch
-torchvision
