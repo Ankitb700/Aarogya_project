@@ -33,8 +33,7 @@ frontend/vite.config.js
 # Logs
 *.log
 
-# Docker files (don't copy Dockerfile into the image)
-Dockerfile
+# Docker files
 .dockerignore
 
 # Large data / archives
