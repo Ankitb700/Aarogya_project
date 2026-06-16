@@ -9,9 +9,10 @@ from pathlib import Path
 
 import cv2
 
-from engine import rppg, extract_vitals, ENGINE_DIR
+from engine import get_rppg, get_extract_vitals
 from session import AnalysisSession
 
+ENGINE_DIR = Path(__file__).resolve().parent.parent / "open_rppg_inference"
 
 def find_video(arg):
     if arg:
@@ -26,7 +27,7 @@ def main():
     video = find_video(sys.argv[1] if len(sys.argv) > 1 else None)
     print(f"Using video: {video}")
 
-    model = rppg.Model()
+    model = get_rppg().Model()
     sess = AnalysisSession(model)
     sess.open()
 

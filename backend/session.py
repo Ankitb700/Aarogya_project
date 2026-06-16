@@ -10,7 +10,7 @@ import time
 import cv2
 import numpy as np
 
-from engine import extract_vitals
+from vitals_analyzer import extract_vitals
 
 
 class AnalysisSession:
